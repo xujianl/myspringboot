@@ -22,6 +22,7 @@ public class DruidConfiguration {
         initParameter.put("loginPassword","123456");
         initParameter.put("resetEnable","false");
         servletRegistrationBean.setInitParameters(initParameter);
+
 //        servletRegistrationBean.addInitParameter("allow","127.0.0.1");
 //        servletRegistrationBean.addInitParameter("deny","192.168.1.73");
 //        servletRegistrationBean.addInitParameter("loginUsername","admin");
